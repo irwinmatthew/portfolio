@@ -1,0 +1,43 @@
+header {
+  background:darkblue;
+  color:#F274F0;
+  padding: 45px;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+  margin: 0;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+#navigationBar{
+  background-color: #333333;
+  position: sticky;
+  top: 0;
+  text-align: center;
+}
+
+#navigationBar a{
+  color: white;
+  text-decoration: none;
+  display: inline;
+  padding: 1.5%;
+}
+
+.pageContent {
+  padding: 1.5%;
+  display: flex;
+}
+
+.sidebar{
+  flex: 5%;
+
+}
+
+.main{
+  flex: 95%;
+}
+img {
+  width: 100%;
+}
